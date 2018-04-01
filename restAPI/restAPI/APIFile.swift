@@ -18,8 +18,8 @@ class GoogleAPI {
         //print( queryN )
 
         // create the url here
-        let key = "AIzaSyDKGVL4DLWByABmiiPENE6ybkSMVV_uS7c"
-        let appID = "016032778942478851132:sg4odojo5rg"
+        let key = "" // use your Key here
+        let appID = "" // use your APP ID here
         var urlString = "https://www.googleapis.com/customsearch/v1?q="+queryN!
         urlString += "&key="
         urlString += key
